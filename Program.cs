@@ -5,14 +5,46 @@ using System.Text;
 
 Console.WriteLine("Hello, World!");
 
-string myString = "15";
-string myOtherString = "13";
-int num1 = Int32.Parse(myString);
-int num2 = Int32.Parse(myOtherString);
-int resultInt = num1 + num2;
+//int age = 31;
+//string name = "Alfonso";
 
-string result = myString + myOtherString;
-Console.WriteLine(resultInt);
+////Takes spaces and ignores escape characters
+//Console.WriteLine("Verbatim Strings");
+//Console.WriteLine(@"Lorem
+
+//as /ndf");
+
+
+//Console.WriteLine("String Interlopation");
+//Console.WriteLine($"HelloHello my name is {name}, I am {age} years old ");
+
+//Console.WriteLine("String Concatenation");
+//Console.WriteLine("Hello my name is " + name + ", I am " + age + " years old");
+
+//Console.WriteLine("String Formating");
+//Console.WriteLine("Hello my name is {0}, I am {1} years old", name, age);
+
+
+//string stringForFloat = "0.85"; // datatype should be float
+//string stringForInt = "12345"; // datatype should be int
+
+//float newFloat = float.Parse(stringForFloat);
+//int newInt = Int32.Parse(stringForInt);
+
+//Console.WriteLine(newFloat);
+
+
+
+//string myString = "15";
+//string myOtherString = "13";
+//int num1 = Int32.Parse(myString);
+//int num2 = Int32.Parse(myOtherString);
+//int resultInt = num1 + num2;
+
+//string result = myString + myOtherString;
+//Console.WriteLine(resultInt);
+
+
 //// implicit conversion
 //int num = 123423;
 //long bigNum = num;
@@ -32,6 +64,7 @@ Console.WriteLine(resultInt);
 
 //Console.WriteLine(myInt);
 
+
 // String methods
 //string myname = "Jeff";
 
@@ -47,6 +80,7 @@ Console.WriteLine(resultInt);
 //int asciiValue = Console.Read();
 //Console.WriteLine("ASCII value is {0}", asciiValue);
 //Console.Read();
+
 
 // Primitive Data Types
 
