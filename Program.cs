@@ -5,20 +5,41 @@ using System.Text;
 
 Console.WriteLine("Hello, World!");
 
-string myname = "Jeff";
 
-string message = "My name is " + myname;
+//// implicit conversion
+//int num = 123423;
+//long bigNum = num;
 
-string lowerMessage = message.ToLower();
+//float myFloat = 12.234f;
+//double myNewDouble = myFloat;
+
+//// explicit conversion
+//double myDouble = 12.23;
+//int myInt;
+
+//// cast double to int
+//myInt = (int)myDouble;
+
+////type conversion 
+//string myString = myDouble.ToString();
+
+//Console.WriteLine(myInt);
+
+// String methods
+//string myname = "Jeff";
+
+//string message = "My name is " + myname;
+
+//string lowerMessage = message.ToLower();
 
 //Console.WriteLine(lowerMessage);
 //Console.WriteLine(message);
 //Console.ReadLine();
 
 
-int asciiValue = Console.Read();
-Console.WriteLine("ASCII value is {0}", asciiValue);
-Console.Read();
+//int asciiValue = Console.Read();
+//Console.WriteLine("ASCII value is {0}", asciiValue);
+//Console.Read();
 
 // Primitive Data Types
 
