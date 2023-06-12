@@ -2,11 +2,22 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
+        static void Main(string[] args) {
+            AddTwoNums();
         }
+        
+        //public static void AddTwoNums()
+        //{
 
+        //    Console.Write("Enter first input: ");
+        //    string input1 = Console.ReadLine();
+
+        //    Console.Write("Enter second input: ");
+        //    string input2 = Console.ReadLine();
+
+        //    int sum = int.Parse(input1) + int.Parse(input2); 
+        //    Console.WriteLine($"{input1} + {input2} = {sum}" );
+        //}
 
         //constants as fields
 
