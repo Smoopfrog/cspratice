@@ -1,9 +1,45 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Microsoft.VisualBasic;
 using System;
+using System.Diagnostics.Metrics;
+using System.Diagnostics;
+using System.Numerics;
 using System.Text;
-
+using System.Xml.Linq;
 Console.WriteLine("Hello, World!");
+
+// constants as fields
+
+const double PI = 3.14159265359;
+const int weeks = 52, months = 12;
+const string birthday = "02.11.1994", birthday2 = "11.02.1994";
+Console.WriteLine(birthday);
+
+// vars
+// var takes type of value 
+
+var num = 2;
+var name = "string";
+
+//Console.Write("Enter the string here: ");
+//string input = Console.ReadLine();
+
+//Console.Write("Enter a character to search: ");
+//char searchInput = Console.ReadLine()[0];
+
+//int searchIndex = input.IndexOf(searchInput);
+
+//Console.WriteLine(searchIndex);
+
+
+//string name;
+
+//Console.WriteLine("Please enter your name and press enter");
+//name = Console.ReadLine();
+
+//Console.WriteLine(name.ToUpper());
+//Console.WriteLine(name.ToLower());
+//Console.WriteLine(name.Trim());
 
 //int age = 31;
 //string name = "Alfonso";
