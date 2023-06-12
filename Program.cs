@@ -5,7 +5,14 @@ using System.Text;
 
 Console.WriteLine("Hello, World!");
 
+string myString = "15";
+string myOtherString = "13";
+int num1 = Int32.Parse(myString);
+int num2 = Int32.Parse(myOtherString);
+int resultInt = num1 + num2;
 
+string result = myString + myOtherString;
+Console.WriteLine(resultInt);
 //// implicit conversion
 //int num = 123423;
 //long bigNum = num;
